@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillUpGH Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body class="font-sans antialiased text-gray-800">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold text-orange-600">SkillUpGH</a>
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="home"      class="hover:text-orange-600">Home</a></li>
+        <li><a href="courses"   class="hover:text-orange-600">Courses</a></li>
+        <li><a href="about"     class="hover:text-orange-600">About</a></li>
+        <li><a href="instructors" class="hover:text-orange-600">Instructors</a></li>
+        <li><a href="contact"   class="hover:text-orange-600">Contact</a></li>
+      </ul>
+      <a href="enroll" class="hidden md:inline-block bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700">
+        Enroll Now
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="bg-orange-50">
+    <div class="container mx-auto px-6 py-20 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to SkillUpGH Academy</h1>
+      <p class="text-lg md:text-xl mb-8">Learn from industry experts, anytime, anywhere.</p>
+      <a href="courses" class="bg-orange-600 text-white px-8 py-3 rounded-full text-lg hover:bg-orange-700">
+        Get Started
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="container mx-auto px-6 py-16 grid md:grid-cols-3 gap-8">
+    <div class="text-center">
+      <svg class="w-12 h-12 mx-auto mb-4"></svg>
+      <h3 class="font-semibold text-xl mb-2">Expert Instructors</h3>
+      <p>Learn from top professionals in tech, creative designs, career and business.</p>
+    </div>
+    <div class="text-center">
+      <svg class="w-12 h-12 mx-auto mb-4"></svg>
+      <h3 class="font-semibold text-xl mb-2">Flexible Schedule</h3>
+      <p>Self-paced courses that fit your busy life.</p>
+    </div>
+    <div class="text-center">
+      <svg class="w-12 h-12 mx-auto mb-4"></svg>
+      <h3 class="font-semibold text-xl mb-2">Certification</h3>
+      <p>Get recognized with a completion certificate.</p>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses" class="bg-orange-50 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Courses</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Coding -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="./images/web.png" alt="Course 1" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <h3 class="font-semibold text-xl mb-2">Webpage Fundamentals</h3>
+            <p class="text-gray-600 mb-4">Master the building blocks of webpages.</p>
+            <a href="#" class="text-orange-600 font-medium hover:underline">Learn More →</a>
+          </div>
+        </div>
+        <!-- Creative Skills -->
+         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="./images/media.jpg" alt="Course 1" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <h3 class="font-semibold text-xl mb-2">Creative Skills (Design & Video Editing)</h3>
+            <p class="text-gray-600 mb-4">Unleash your artistic vision by crafting eye-catching visuals and editing compelling video stories.</p>
+            <a href="#" class="text-orange-600 font-medium hover:underline">Learn More →</a>
+          </div>
+           </div>
+        <!-- Business & Career Guidance -->
+         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="./images/entrepreneurship.webp" alt="Course 1" class="w-full h-48 object-cover"/>
+          <div class="p-6">
+            <h3 class="font-semibold text-xl mb-2">Entrepreneurship, Side-Hustles & Career Guidance</h3>
+            <p class="text-gray-600 mb-4">
+            Ignite your entrepreneurial journey with actionable strategies to launch and scale ventures, monetize your passions,
+             and navigate a fulfilling career path with confidence.
+            </p>
+            <a href="#" class="text-orange-600 font-medium hover:underline">Learn More →</a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-1/2">
+      <h2 class="text-3xl font-bold mb-4">About SkillUpGH</h2>
+      <p class="text-gray-700 mb-6">
+        At SkillUpGH we believe that anyone, anywhere can learn the skills needed to thrive in today'
+        ]s digital economy...
+      </p>
+      <a href="#contact" class="bg-orange-600 text-white px-6 py-2 rounded-full hover:bg-orange-700">
+        Get In Touch
+      </a>
+    </div>
+    <div class="md:w-1/2">
+      <img src="./images/skill1.png" alt="About us" class=" h-25 w-17 shadow-lg"/>
+    </div>
+  </section>
+
+  <!-- INSTRUCTORS -->
+  <section id="instructors" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Meet Our Instructors</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Instructor Card -->
+        <div class="text-center">
+          <img src="path/to/instructor.jpg" alt="Instructor Name" class="mx-auto rounded-full w-32 h-32 mb-4"/>
+          <h4 class="font-semibold text-lg">Sam Generals</h4>
+          <p class="text-gray-600 text-sm">Full-Stack Developer</p>
+        </div>
+        <div class="text-center">
+          <img src="path/to/instructor.jpg" alt="Instructor Name" class="mx-auto rounded-full w-32 h-32 mb-4"/>
+          <h4 class="font-semibold text-lg">Joseph Jack</h4>
+          <p class="text-gray-600 text-sm">Creative Skills (Design & Video Editing)</p>
+        </div>
+        <div class="text-center">
+          <img src="path/to/instructor.jpg" alt="Instructor Name" class="mx-auto rounded-full w-32 h-32 mb-4"/>
+          <h4 class="font-semibold text-lg">Joachime Jack</h4>
+          <p class="text-gray-600 text-sm">Entrepreneurship, Side-Hustles & Career Guidance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-12">What Our Students Say</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <p class="italic mb-4">“SkillUpGH changed my career!”</p>
+        <p class="font-semibold">— Kwame A.</p>
+      </div>
+      <!--more testimonials -->
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-orange-600 py-16 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4">Ready to Level Up?</h2>
+    <a href="#enroll" class="bg-white text-orange-600 px-8 py-3 rounded-full font-semibold hover:bg-orange-100">
+      Enroll Now
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-orange-900 text-gray-400 py-10">
+    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <!-- Links -->
+      <div>
+        <h5 class="font-semibold text-white mb-4">Quick Links</h5>
+        <ul class="space-y-2">
+          <li><a href="#home" class="hover:text-white">Home</a></li>
+          <li><a href="#courses" class="hover:text-white">Courses</a></li>
+          <li><a href="#about" class="hover:text-white">About</a></li>
+        </ul>
+      </div>
+      <!-- Contact -->
+      <div>
+        <h5 class="font-semibold text-white mb-4">Contact Us</h5>
+        <p>josephjackdaketse@gmail.com</p>
+        <p>+233 (0) 240375262</p>
+      </div>
+      <!-- Social -->
+      <div>
+        <h5 class="font-semibold text-white mb-4">Follow Us</h5>
+        <div class="flex space-x-4">
+          <a href="#" aria-label="Facebook" class="hover:text-white">[FB icon]</a>
+          <a href="#" aria-label="Twitter" class="hover:text-white">[X icon]</a>
+          <a href="#" aria-label="Instagram" class="hover:text-white fab fa-instagram">[IG icon]</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-10 text-sm">&copy; 2025 SkillUpGH. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
